@@ -1,0 +1,95 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../static/fonts/Retroica.ttf');
+}
+
+html {
+    font-family: 'Silkscreen';
+    font-size: xx-large;
+    background-color: #F5EDCE;
+}
+
+h1 {
+    color: #89C4E1;
+    text-shadow: 2px 2px gray;
+    top: 60px;
+}
+
+.title {
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    right: 100px;
+    top: 60px
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 2px gray);
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.board * {
+    align-self: center;
+    flex: 1;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.score-board > .score > * {
+    font-weight: bolder;
+    text-shadow: 2px 2px gray;
+}
+
+.d-flex {
+    display: flex;
+    gap: 15vw;
+}
+
+.card {
+    filter: drop-shadow(5px 5px 5px gray);
+}
+
+.card-image {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-image:hover {
+    top: -5px;
+}
+
+.dash-board table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dash-board td {
+    padding: 100;
+    color: #58287F;
+}
+
+.dash-board thead th {
+    text-align: left;   
+    text-decoration: underline;
+    font-weight: bold;
+    padding-right: 40px;;
+}
+
+
